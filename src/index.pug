@@ -20,11 +20,22 @@ html
           h3 Reduce compile time by only compiling changes.
 
       #blocks
-        .block
+        .block#installation
           h3 Installation
           pre: code $ npm install -g @depmap/cli
 
-        .block
+        .block#quickstart
+          h3 Quickstart
+          p Clone this repository, start 
+            span.snippet depmap
+            span , and edit a file in 
+            span.snippet src/
+          pre: code
+            | $ git clone git@github.com:depmap/depmap.github.io.git
+            | $ cd depmap.github.io
+            | $ depmap watch
+
+        .block#usage
           h3 Usage
 
           h4 Compile Once
@@ -33,7 +44,7 @@ html
           h4 Watch Continously
           pre: code $ depmap watch
 
-        .block
+        .block#configuration
           h3 Configuration
           pre: code
             | // config.js

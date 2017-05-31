@@ -22,11 +22,15 @@ h6 {
   margin: 0.85rem 0;
 }
 pre,
-code {
+code,
+.snippet {
   color: #333;
   background: #eee;
   font-family: 'Source Code Pro', monospace;
   font-size: 0.85rem;
+}
+.snippet {
+  padding: 0.15rem 0.25rem;
 }
 pre {
   padding: 0.85rem;

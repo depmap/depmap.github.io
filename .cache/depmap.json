@@ -5,7 +5,7 @@
       "loader": ".pug"
     },
     "dependencies": {},
-    "lastUpdated": 1496257492000
+    "lastUpdated": 1496262094000
   },
   "src/index.styl": {
     "context": {
@@ -13,6 +13,6 @@
       "loader": ".styl"
     },
     "dependencies": {},
-    "lastUpdated": 1496257371000
+    "lastUpdated": 1496262148000
   }
 }

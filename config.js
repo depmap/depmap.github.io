@@ -4,5 +4,9 @@ const styl = require('@depmap/stylus-loader')
 module.exports = {
   path: 'src/**/*',
   output: './',
-  load: { pug, styl }
+  load: { pug, styl },
+  browsersync: {
+    server: './',
+    files: './'
+  }
 }
