@@ -1,0 +1,100 @@
+// colors
+$white = #fff
+$red = #ff3333
+$gray = #333
+$smoke = #eee
+$bg = $red
+$fg = $white
+
+*
+  box-sizing: border-box
+
+html, body
+  height: 100%
+  width: 100%
+  margin: 0
+
+body
+  background-color: $fg
+  font-family: 'Roboto', sans-serif
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Fira Sans', sans-serif
+  padding: 0
+  margin: .85rem 0
+
+pre, code
+  color: $gray
+  background: $smoke
+  font-family: 'Source Code Pro', monospace
+  font-size: .85rem
+
+pre
+  padding: .85rem
+  overflow: scroll
+
+header
+  position: relative
+  background: $bg
+  height: 70%
+  min-height: 7rem * 4
+  color: $fg
+
+.fork-me
+  position: absolute
+  top: 2.5rem
+  right: 0
+  font-size: 1rem
+  padding: .75rem 1.5rem
+  border: 2px solid $gray
+  color: $gray
+  opacity: .5
+  transition: .2s opacity ease-in
+  text-decoration: none
+  font-weight: bold
+
+  &:hover
+    opacity: .8
+
+.info
+  position: relative
+  display: flex
+  height: 100%
+  width: 85%
+  max-width: 1000px
+  margin: auto
+  justify-content: center
+  flex-direction: column
+
+  h1, h2, h3
+    margin: .5rem 0 
+
+  h1
+    font-size: 4rem
+
+  h2
+    font-size: 2rem
+
+  h3
+    font-size: 1rem
+
+#blocks
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: center
+  width: 100%
+  margin-top: -5rem  // .fork-me height + top/bot padding + top pos
+
+  .block
+    width: 80%
+    max-width: 1000px
+    margin: auto
+    background-color: $fg
+    padding: 1rem 1.5rem
+    border-bottom: 1px solid $gray
+
+    &:last-of-type
+      border-bottom: 0
+      padding: 1rem 1.5rem 0
+      margin-bottom: .85rem

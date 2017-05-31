@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fira Sans', sans-serif;
+  padding: 0;
+  margin: 0.85rem 0;
+}
+pre,
+code {
+  color: #333;
+  background: #eee;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.85rem;
+}
+pre {
+  padding: 0.85rem;
+  overflow: scroll;
+}
+header {
+  position: relative;
+  background: #f33;
+  height: 70%;
+  min-height: 28rem;
+  color: #fff;
+}
+.fork-me {
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #333;
+  color: #333;
+  opacity: 0.5;
+  transition: 0.2s opacity ease-in;
+  text-decoration: none;
+  font-weight: bold;
+}
+.fork-me:hover {
+  opacity: 0.8;
+}
+.info {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+.info h1,
+.info h2,
+.info h3 {
+  margin: 0.5rem 0;
+}
+.info h1 {
+  font-size: 4rem;
+}
+.info h2 {
+  font-size: 2rem;
+}
+.info h3 {
+  font-size: 1rem;
+}
+#blocks {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: -5rem;
+}
+#blocks .block {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #333;
+}
+#blocks .block:last-of-type {
+  border-bottom: 0;
+  padding: 1rem 1.5rem 0;
+  margin-bottom: 0.85rem;
+}

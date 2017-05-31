@@ -1,0 +1,18 @@
+{
+  "src/index.pug": {
+    "context": {
+      "filepath": "src/index.pug",
+      "loader": ".pug"
+    },
+    "dependencies": {},
+    "lastUpdated": 1496257492000
+  },
+  "src/index.styl": {
+    "context": {
+      "filepath": "src/index.styl",
+      "loader": ".styl"
+    },
+    "dependencies": {},
+    "lastUpdated": 1496257371000
+  }
+}
