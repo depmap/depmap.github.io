@@ -6,7 +6,7 @@ html
     meta(name='author' content='')
     meta(name='viewport' content='width=device-width, initial-scale=1')
 
-    title Depmap
+    title Depmap - Why compile more?
     link(rel='stylesheet' type='text/css' href='css/index.css')
     link(href='https://fonts.googleapis.com/css?family=Source+Code+Pro|Fira+Sans|Roboto' rel='stylesheet')
 
@@ -46,6 +46,13 @@ html
 
         .block#configuration
           h3 Configuration
+          p Add language 
+            span.snippet loaders
+            | , set your 
+            span.snippet path
+            |  & 
+            span.snippet output
+            | , and start working
           pre: code
             | // config.js
             | const pug  = require('@depmap/pug-loader')
