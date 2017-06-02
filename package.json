@@ -13,5 +13,6 @@
     "@depmap/depmap": "^1.0.0-alpha.0",
     "@depmap/pug-loader": "^1.0.0-alpha.0",
     "@depmap/stylus-loader": "^1.0.0-alpha.0"
-  }
+  },
+  "private": true
 }
